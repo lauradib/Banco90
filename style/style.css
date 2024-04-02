@@ -1,0 +1,110 @@
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+
+
+
+#banner{
+    background-color: #ba2d2d;
+    height: 150px ;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+  
+}
+
+#button1{
+    display: flex;
+    justify-content: end;
+}
+
+a{
+    color: white;
+    display: flex;
+   
+}
+
+#grupocartoes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 300px;
+    
+}
+
+
+#cartoes h3{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.cartao{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+#cartao1{
+    background-image: url(../icons/1111.png);
+}
+
+#cartao2{
+    background-image: url(../icons/2222.png);
+}
+
+#cartao3{
+    background-image: url(../icons/3333.png);
+}
+
+/* section de horarios*/
+
+#horariosDiv{
+    width: 1000px;
+    border: 1px solid black;
+    box-shadow: 5px 5px darkgrey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+    margin: 30px auto;
+}
+
+#horariosDiv table{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+
+}
+
+td, th{
+   
+    border: solid black 1px;
+    padding: 8px;
+
+}
+
+th{
+    background-color: #ba2d2d;
+
+}
+
+td:hover{
+    background-color: aliceblue;
+}
+
+th:empty{
+    background-color: transparent;
+    border: none;
+}
+
+/* fim section de horarios*/
+
